@@ -1,4 +1,4 @@
-Plugins.connect_notify.init = async function () {
+Plugins.connect_fabio.init = async function () {
   const WS_URL = "wss://sdrapi.mastrovito.eu"; // change this
   const USERLIST_URL = "https://sdrapi.mastrovito.eu/users"; // you must expose this with HTTP
   const HEARTBEAT_INTERVAL = 10000;
@@ -60,3 +60,4 @@ Plugins.connect_notify.init = async function () {
 
   return true;
 };
+
