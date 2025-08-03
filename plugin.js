@@ -1,5 +1,3 @@
-Plugins.connect_fabio._version = 0.1;
-
 Plugins.connect_fabio.init = async function () {
   const WS_URL = "wss://sdrapi.mastrovito.eu"; // change this
   const USERLIST_URL = "https://sdrapi.mastrovito.eu/users"; // you must expose this with HTTP
@@ -62,5 +60,6 @@ Plugins.connect_fabio.init = async function () {
 
   return true;
 };
+
 
 
